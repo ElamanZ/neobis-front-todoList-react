@@ -47,6 +47,7 @@ function MainPage() {
 
 
 
+
                     <p className="main__description">CREATE A TODO</p>
 
                     <h3 className="main__todoText">What's on your todo list?</h3>
