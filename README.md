@@ -60,5 +60,6 @@
    
    GitHub: https://github.com/ElamanZ
 
-![image](https://github.com/ElamanZ/neobis-front-todoList/assets/110537470/93ec1ad8-6faa-4983-95ba-b6505567684b)
+![image](https://github.com/ElamanZ/neobis-front-todoList-react/assets/110537470/7410b0be-72d3-487b-9962-a828a3105385)
+
 
