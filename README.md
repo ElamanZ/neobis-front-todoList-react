@@ -1,74 +1,63 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# ReadMe для проекта "TodoList-React"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Описание проекта
 
-## Available Scripts
+Это веб-приложение TodoList, которое позволяет вам создавать и управлять своим списком задач.
+Это простое приложение для ведения списка дел (задач). Вы можете добавлять, редактировать и удалять задачи.
+Каждая задача может быть отмечена как выполненная или невыполненная.
+Вы также можете выбирать категорию для каждой задачи: личная или рабочая.
 
-In the project directory, you can run:
+## Установка
 
-### `npm start`
+Чтобы запустить этот проект локально на своем компьютере, выполните одно из этих вариантов:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**1 - Вариант:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+        1. **Скачайте проект:** [Скачать архив] 
+  
+        2. **Распакуйте архив:** Распакуйте zip-архив на вашем компьютере.
+  
+        3. **Запустите проект:**
+            - Откройте терминал (командную строку).
+            - Перейдите в папку с проектом (`cd путь_к_папке_проекта`).
+            - Установите зависимости: `npm install`.
+            - Запустите проект: `npm start`. Это откроет проект в вашем браузере по адресу `http://localhost:3000/`.
 
-### `npm test`
+**2 - Вариант:**  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+        1.**Склонируйте репозиторий:** используя команду в терминале проекта `git clone` + [ссылка на репозиторий]
+        2.**Установите зависимости: `npm install`
 
-### `npm run build`
+## Использование
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Просто введите название задачи в поле ввода и выберите категорию, затем нажмите "Add todo" для добавления задачи в список.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Категории**
 
-### `npm run eject`
+    "Personal" - для личных задач.
+    "Business" - для деловых задач.
+    
+**Действия**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    "Toggle" - переключает статус задачи (выполнена/невыполнена).
+    "Edit" - позволяет редактировать название задачи.
+    "Delete" - удаляет задачу из списка.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Технологии**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    HTML
+    CSS
+    JavaScript
+    React
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Автор
 
-## Learn More
+   Developer: Elaman Zarlykov
+   
+   Gmail: z.elaman699@gmail.com
+   
+   GitHub: https://github.com/ElamanZ
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/ElamanZ/neobis-front-todoList/assets/110537470/93ec1ad8-6faa-4983-95ba-b6505567684b)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# neobis-front-todoList-react
->>>>>>> 63732352556a4f961140037133cb923cdd7a2662
