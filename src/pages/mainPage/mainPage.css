@@ -112,7 +112,8 @@ input:checked ~ .radio-btn::after{
     font-size: 20px;
     background-color: transparent;
     border: none;
-    outline: none
+    outline: none;
+    width: 500px;
 }
 
 .task-done {
