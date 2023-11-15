@@ -1,13 +1,15 @@
 import React from 'react';
 import '../todoList/todoList.css'
-function TodoList(props) {
+function TodoList({todo, deleteTodo, onChangeTodoStatus}) {
 
     const handleCheckboxChange = () => {
-        props.onChangeTodoStatus(props.todo.id); // Передача id задачи для обновления статуса
+        onChangeTodoStatus(todo.id);
     };
     const btnCompleted = () => {
-        return props.todo.completed = !props.todo.completed
+        return todo.completed = !todo.completed
     }
+
+
     return (
         <>
             <li className="list-group-item">
@@ -16,17 +18,17 @@ function TodoList(props) {
                         <input
                             type="checkbox"
                             onChange={handleCheckboxChange}
-                            checked={props.todo.completed}
+                            checked={todo.completed}
                             onClick={btnCompleted}
                         />
-                        <span className="radio-btn"></span>
+                        <span className={`radio-btn ${todo.category === 'personal' ? "personal" : "business"}`}></span>
                     </label>
-                    <span id="editText" className="todo-task-text">{props.todo.text}</span>
+                    <span id="editText" className="todo-task-text">{todo.text}</span>
                 </div>
 
                 <span className="todo-buttons">
                     <button className="btn btn-edit-task">Edit</button>
-                    <button className="btn btn-edit-delete">Delete</button>
+                    <button className="btn btn-edit-delete" onClick={()=> deleteTodo(todo)}>Delete</button>
                 </span>
             </li>
 

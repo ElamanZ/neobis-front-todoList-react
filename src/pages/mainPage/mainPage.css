@@ -143,7 +143,15 @@ input:checked ~ .radio-btn::after{
     border: none;
     transition: 0.05s;
 }
-
+.f-size {
+    font-size: 20px;
+}
+.main__titleInput {
+    outline: none;
+    border: none;
+    font-size: 32px;
+    font-weight: 600;
+}
 
 
 
